@@ -7,7 +7,7 @@ const resolvers = require("./schemas/resolvers");
 
 const db = require("./config/connection");
 const routes = require("./routes");
-const ApolloServer = new ApolloServer({
+const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
 });
